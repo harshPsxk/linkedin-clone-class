@@ -1,0 +1,27 @@
+.nav_container{
+  display: flex;
+  
+}
+.nav_left{
+  padding-left: 100px;
+  padding-right: 60pxs;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: .4;
+  
+}
+.nav_left> img{
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.search_box {
+  display: flex;
+  
+ 
+}
+.search_box > input{
+  border: none;
+  outline-width: 0;
+}

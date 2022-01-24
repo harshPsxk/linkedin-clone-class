@@ -1,5 +1,4 @@
 import './NavContents.css'
-
 import React from 'react'
 
 function NavContents({Icon, title}){

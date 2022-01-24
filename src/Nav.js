@@ -15,7 +15,7 @@ function Nav(){
          <SearchIcon/>
          <input  type="text" placeholder="Search"/> 
         </div>
-        
+      
       </div>
       <div className="nav_right">
         <NavContents Icon={HomeIcon} title="Home" />

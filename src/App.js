@@ -1,11 +1,12 @@
-
+import Sidebar from './Sidebar';
 import './App.css';
 import Nav from './Nav';
+
 function App() {
   return (
     <div className="app" >
        <Nav/>
-       {/* Sidebar */}
+       <Sidebar/>
        {/* Feed */}
        {/* News */}
     </div>

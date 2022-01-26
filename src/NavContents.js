@@ -3,7 +3,7 @@ import React from 'react'
 
 function NavContents({Icon, title}){
   return (<div className='navContents_container'>
-    {Icon && <Icon/> }
+    {Icon && <Icon className='navContents_icon'/> }
     <h3>{title}</h3>
   </div>)
 }

@@ -1,19 +1,16 @@
 .nav_container{
   display: flex;
-  
-}
+ }
 .nav_left{
   padding-left: 100px;
   padding-right: 60pxs;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: .4;
-  padding: 10px;
-  
+  flex: 0.6;
 }
 .nav_left> img{
-  height: 50px;
+  height: 50px; 
   margin-left: 10px;
   margin-top: 5px;
 }
@@ -25,4 +22,8 @@
 .search_box > input{
   border: none;
   outline-width: 0;
+}
+.nav_right{
+  display: flex;
+  align-items: center;
 }

@@ -3,6 +3,10 @@ import "./Nav.css"
 import SearchIcon from "@material-ui/icons/Search"
 import NavContents from "./NavContents";
 import HomeIcon from "@material-ui/icons/Home"
+import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount"
+import BusinessCenterIcon from "@material-ui/icons/BusinessCenter"
+import ChatIcon from "@material-ui/icons/Chat"
+import NotificationsIcon from "@material-ui/icons/Notifications"
 
 function Nav(){
   return (
@@ -19,10 +23,11 @@ function Nav(){
       </div>
       <div className="nav_right">
         <NavContents Icon={HomeIcon} title="Home" />
-        <NavContents Icon={HomeIcon} title="Home" />
-        <NavContents Icon={HomeIcon} title="Home" />
-        <NavContents Icon={HomeIcon} title="Home" />
-        <NavContents Icon={HomeIcon} title="Home" />
+        <NavContents Icon={SupervisorAccountIcon} title="My Network" />
+        <NavContents Icon={BusinessCenterIcon} title="Jobs" />
+        <NavContents Icon={ChatIcon} title="Messaging" />
+        <NavContents Icon={NotificationsIcon} title="Notifications" />
+        <NavContents  title="Me" />
 
       </div>
     

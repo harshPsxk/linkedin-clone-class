@@ -27,7 +27,7 @@ function Nav(){
         <NavContents Icon={BusinessCenterIcon} title="Jobs" />
         <NavContents Icon={ChatIcon} title="Messaging" />
         <NavContents Icon={NotificationsIcon} title="Notifications" />
-        <NavContents  title="Me" />
+        <NavContents avatar title="Me" />
 
       </div>
     

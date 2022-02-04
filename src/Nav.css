@@ -1,5 +1,8 @@
 .nav_container{
   display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
  }
 .nav_left{
   padding-left: 100px;

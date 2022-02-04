@@ -1,10 +1,13 @@
 *{
   margin: 0;
-  background-color: whitesmoke;
+  
   
 }
-.app
-{
- 
-  
+.app{
+
 }
+.app_body{
+  display: flex;
+}
+
+  

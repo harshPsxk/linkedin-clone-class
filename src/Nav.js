@@ -19,6 +19,7 @@ function Nav(){
          <SearchIcon/>
          <input  type="text" placeholder="Search"/> 
         </div>
+        
       
       </div>
       <div className="nav_right">
@@ -30,6 +31,7 @@ function Nav(){
         <NavContents avatar title="Me" />
 
       </div>
+      
     
     </div>
     

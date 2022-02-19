@@ -13,7 +13,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar_top">
-      <img className="" src="https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png" alt=""/>
+      <img className="sidebarimage" src="https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png" alt=""/>
       <Avatar className="sidebar_avatar"/>
       <h2>Harsh Pratap</h2>
       <h4>harshPsingh@live.com</h4>

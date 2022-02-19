@@ -1,4 +1,5 @@
 .sidebar{
+  padding-top: 38px;
   position: fixed;
   top: 80px;
   flex: 0.2;
@@ -18,6 +19,7 @@
   border-top-right-radius: 10px;
 }
 .sidebar_top{
+  
   width: 250px;
   display: flex;
   flex-direction: column;

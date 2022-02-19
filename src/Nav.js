@@ -7,8 +7,18 @@ import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount"
 import BusinessCenterIcon from "@material-ui/icons/BusinessCenter"
 import ChatIcon from "@material-ui/icons/Chat"
 import NotificationsIcon from "@material-ui/icons/Notifications"
+import { auth } from "./firebase";
+import { useDispatch } from "react-redux";
+import { logout } from "./features/userSlice";
+
+
 
 function Nav(){
+  const dispatch = useDispatch()
+  const logOutOfApp = () => {
+    dispatch(logout())
+    auth.signOut()
+  }
   return (
     <div className="nav_container">
 
@@ -28,7 +38,7 @@ function Nav(){
         <NavContents Icon={BusinessCenterIcon} title="Jobs" />
         <NavContents Icon={ChatIcon} title="Messaging" />
         <NavContents Icon={NotificationsIcon} title="Notifications" />
-        <NavContents avatar title="Me" />
+        <NavContents avatar onClick = {logOutOfApp}  title="Me" />
 
       </div>
       

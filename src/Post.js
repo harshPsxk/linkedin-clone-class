@@ -6,11 +6,11 @@ import ThumbUpOutlinedIcon from '@material-ui/icons/ThumbUpOutlined'
 import MessageOutlinedIcon from '@material-ui/icons/MessageOutlined'
 import ShareOutlinedIcon from '@material-ui/icons/FolderSharedOutlined'
 import SendOutlinedIcon from '@material-ui/icons/SendOutlined'
-function Posts({name, description, message}){
+function Posts({name, description, message, photoUrl}){
   return(
     <div className="posts_container">
         <div className="posts_header">
-            <Avatar/>
+            <Avatar src={photoUrl}/>
             <div className="posts_info">
                 <p className="posts_name">{name}</p>
                 <p className="posts_description">{description}</p>
